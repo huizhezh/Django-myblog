@@ -1,0 +1,8 @@
+{% extends "base_two.html" %}
+{% block content %} 
+
+<h3>{{ posts.title}}</h3>
+<p>{{ posts.content }}</p>
+<p>{{ posts.timestamp|date:"1, F jS"}}</p>
+
+{% endblock %}
